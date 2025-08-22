@@ -1,0 +1,102 @@
+#!/bin/bash
+
+############################################################
+# Help                                                     #
+############################################################
+Help()
+{
+   # Display Help
+   echo
+   echo "A utility by Qandy to delete any files with a given (or similar) name "
+   echo "Remain cautious as it could very well be that a vital file coincidentally" 
+   echo "has the same string in its name as the file you are searching to delete."
+   echo
+   echo -e "I heavily advise to \e[31mNEVER\e[0m use common words or combinations of letters"
+   echo "such as \"rgb\", \"sys\" or the like. Also don't delete \"grub\" or any"
+   echo "other system-critical software"
+   echo 
+   echo "I wrote this script as a hate letter to residual files. Take Care!"
+   echo 
+   echo "Syntax: scriptTemplate [-g|-h|-v]"
+   echo
+   echo "Options:"
+   echo "    -h     Print this Help."
+   echo "    -v     Print software version and exit."
+   echo "    -g     Print the GPL license notification."
+   echo
+}
+
+Version()
+{
+   # Display Software Version
+   echo 
+   echo -e "Version 1.0, \e[35mqandy inc.\e[0m (not a real company , though it sounds nice)"
+   echo
+}
+
+License()
+{
+   echo
+   echo
+   echo
+   echo "https://github.com/Qand7/qpurge/blob/main/LICENSE"
+   echo
+   echo 
+   echo
+   echo "(I ain't printing allat, you got wifi, you downloaded this, go look at it on Github)"
+   echo "(It's just the GPL 3.0 license)"
+}
+
+############################################################
+############################################################
+# Main program                                             #
+############################################################
+############################################################
+############################################################
+# Find any files with the argument String in their name.   #
+############################################################
+while getopts ":h :v :g" option; do
+   case $option in
+      h) # display Help
+         Help
+         exit;;
+      v) # display Version
+	 Version
+	 exit;;
+      g) # display License
+	 License
+	 exit;;
+     \?) # Invalid option
+         echo "Error: Invalid option"
+         exit;;
+   esac
+done
+
+sudo find -iname "*$1*"
+
+echo
+read -p "Are you sure you want to delete these files? (Y/n): " -n 1 -r
+
+if [[ $REPLY =~ ^[yY]$ ]] || [[ -z $REPLY ]]; then
+
+    echo
+    read -p "Are you REALLY sure that you want these files deleted? (type \"YES\" to confirm): " confirmation
+    if [[ $confirmation == "YES" ]]; then
+
+	echo 
+	echo "I am serious. you could be deleting VITAL system files." 
+	read -p "(type \"YES, I CONFIRM\" to confirm): " conf
+ 	if [[ $conf == "YES, I CONFIRM" ]]; then
+            sudo find -iname "*$1*" | xargs rm -rf
+
+	else 
+	    echo "Process Aborted at third stage"
+	fi
+
+    else
+        echo "Process Aborted at second stage."
+    fi
+
+else
+    echo "Process Aborted at first stage."
+fi

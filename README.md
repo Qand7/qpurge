@@ -5,10 +5,5 @@ A shell script to delete any files with certain names. Non-Case-Sensitive and ve
 # Building it from Scratch
 #### Commands
 ```shell
-git clone https://github.com/Qand7/qpurge.git
-cd qpurge
-mkdir -p build && cd build
-cmake ..
-make -j8
-sudo make install
+
 ```

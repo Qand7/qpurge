@@ -1,5 +1,5 @@
 # qpurge
-A shell script to delete any files with certain names. Non-Case-Sensitive and very dangerous. Was mostly used to figure out bash scripts and different selection options like -h or -v. I made it beacuse I didn't understand the --purge on package managers and didn't trust them to truly delete everything so I made this to truly *Wipe* out any files of that app, specifically because OpenRGB always left residual files and I wanted to delete it for a truly *clean* reinstall.
+A shell script to delete any files with certain names. Non-Case-Sensitive and very dangerous. Was mostly used to figure out bash scripts and different selection options like -h or -v. I made it beacuse I didn't understand the --purge suffix on package managers nor did I trust them to truly delete everything so I made this to truly *Wipe* out any files of that app, specifically because OpenRGB always left residual files and I wanted to delete it for a truly *clean* reinstall.
 
 > [!WARNING]
 > This application **WILL** delete system-critical files if prompted to. Use at your own risk and always make sure not to delete important files

@@ -7,6 +7,8 @@ A shell script to delete any files with certain names. Non-Case-Sensitive and ve
 #### Commands
 ```shell
 I have yet to figure out how to make github builds
+git clone https://github.com/Qand7/qpurge
+cd qpurge
 ```
 ## Copy the file "qpurge" into your ~/usr/bin/ directory and give it permissions by entering this command in the basic console 
 ```shell

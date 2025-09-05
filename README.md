@@ -4,6 +4,8 @@ A shell script to delete any files with certain names. Non-Case-Sensitive and ve
 > [!WARNING]
 > This application **WILL** delete system-critical files if prompted to. Use at your own risk and always make sure not to delete important files
 # Installation
+> [!NOTICE]
+> I'm not sure whether this works on all OS because i'm using Arch Linux but make sure to put replace the directory usr/bin/ with whatever directory your shell commands are saved in
 
 ## Building it from Scratch
 #### Commands

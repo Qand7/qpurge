@@ -18,7 +18,7 @@ sudo chmod +x /usr/bin/qpurge
 ```
 
 # Usage
-Just type ```shell qpurge $String``` and it will find all files that include this string in their name. Afterwards you'll be asked three times to confirm whether you want to delete these files as it could very well be that a critical file is included in the found files. I suppose it is an idea for another day-project to find out how to filter for non-system-critical files for a safer experience.
+Just type ```qpurge $String``` and it will find all files that include this string in their name. Afterwards you'll be asked three times to confirm whether you want to delete these files as it could very well be that a critical file is included in the found files. I suppose it is an idea for another day-project to find out how to filter for non-system-critical files for a safer experience.
 
 # Uninstalling
 #### Command

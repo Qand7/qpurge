@@ -6,7 +6,7 @@ A shell script to delete any files with certain names. Non-Case-Sensitive and ve
 # Installation
 
 > [!NOTE]
-> I'm not sure whether this works on all OS because i'm using Arch Linux but make sure to put replace the directory usr/bin/ with whatever directory your shell commands are saved in
+> I'm not sure whether this works on all OS because I only tried Arch Linux and raspian(Debian) but make sure to put replace the directory "usr/bin/" with whatever directory your shell commands are saved in
 
 ## Building it from Scratch
 #### Commands

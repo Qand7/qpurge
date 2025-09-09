@@ -36,6 +36,7 @@ Version()
 
 License()
 {
+   cat LICENSE.md
    echo
    echo
    echo

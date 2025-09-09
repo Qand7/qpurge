@@ -8,7 +8,7 @@ A Linux shell script to delete any files with certain names. Non-Case-Sensitive 
 Just type ```qpurge $String``` and it will find all files that include this string in their name. Afterwards you'll be asked three times to confirm whether you want to delete these files as it could very well be that a critical file is included in the found files. I suppose it is an idea for another day-project to find out how to filter for non-system-critical files for a safer experience.
 
 > [!NOTE]
-> I'm not sure whether this works on all Distros because I only tried Arch Linux and raspian(Debian) but make sure to put replace the directory "usr/bin/" with whichever directory your shell commands are saved in
+> I'm not sure whether this works on all Distros because I only tried Arch Linux and raspian(Debian) but make sure to replace the $GOALDIR = "usr/bin/" in ```install.sh``` with whichever directory your shell commands are saved in
 
 # Installation
 ### Building from Scratch

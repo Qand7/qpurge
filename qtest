@@ -8,4 +8,6 @@ if [ ! -d test ]; then
 fi
 
 sudo touch ~/test/testFile ~/test/TestFile.txt ~/test/tEsTfIlE.html ~/test/TeStFiLe.c
-echo "Finished." 
+echo
+echo "------------------"
+echo "Created Testfiles" 

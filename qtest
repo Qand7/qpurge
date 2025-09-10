@@ -7,5 +7,5 @@ if [ ! -d test ]; then
 		echo
 fi
 
-touch ~/test/testFile ~/test/TestFile.txt ~/test/tEsTfIlE.html ~/test/TeStFiLe.c
+sudo touch ~/test/testFile ~/test/TestFile.txt ~/test/tEsTfIlE.html ~/test/TeStFiLe.c
 echo "Finished." 

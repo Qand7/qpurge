@@ -7,8 +7,13 @@ if [ ! -d test ]; then
 		echo
 fi
 
-sudo touch ~/test/testFile ~/test/TestFile.txt ~/test/tEsTfIlE.html ~/test/TeStFiLe.c
-echo
-echo "------------------"
-echo "Created Testfiles." 
-echo
+jf [ test -f ~/test/testFile ]; then
+		echo "------------------------"
+		echo "Testfiles already exist."
+		echo
+else
+		sudo touch ~/test/testFile ~/test/TestFile.txt ~/test/tEsTfIlE.html ~/test/TeStFiLe.c
+		echo "------------------"
+		echo "Created Testfiles." 
+		echo
+fi

@@ -4,7 +4,7 @@
 # qpurge
 A Linux shell script to delete any files with certain names. Non-Case-Sensitive and very dangerous. Was mostly used to figure out bash scripts and different selection options like -h or -v. I made it beacuse I didn't understand the --purge suffix on package managers nor did I trust them to truly delete everything so I made this to truly *Wipe* out any files of that app, specifically because OpenRGB always left residual files and I wanted to delete it for a truly *clean* reinstall.
 
-#qtest 
+# qtest 
 Very simple Utility I created during testing to quickly create a test directory with example files in order to test qpurge on them.
 
 # Usage

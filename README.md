@@ -15,9 +15,8 @@ Just type ```qpurge $String``` and it will find all files that include this stri
 #### Commands
 ```shell
 git clone https://github.com/Qand7/qpurge
-cd qpurge
-sudo cp qpurge /usr/bin/qpurge
-sudo chmod +x /usr/bin/qpurge
+chmod +x qpurge/install.sh
+sudo qpurge/install.sh
 ```
 
 # Uninstalling

@@ -1,0 +1,11 @@
+#!/bin/bash
+
+if [ ! -d test ]; then
+		mkdir ~/test
+		echo "----------------------"
+		echo "Test Directory Created"
+		echo
+fi
+
+touch ~/test/testFile ~/test/TestFile.txt ~/test/tEsTfIlE.html ~/test/TeStFiLe.c
+echo "Finished." 

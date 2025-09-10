@@ -1,6 +1,6 @@
 #!/bin/bash
 
-$GOALDIR = /usr/bin/
+$GOALDIR="/usr/bin/"
 
-sudo cp qpurge > $GOALDESTINATION/qpurge
-sudo chmod +x $GOALDESTINATION/qpurge
+sudo cp qpurge "$GOALDIR"/qpurge
+sudo chmod +x "$GOALDIR"/qpurge

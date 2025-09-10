@@ -23,7 +23,18 @@ sudo ~/qpurge/install.sh
 #### Commands
 ```shell
 sudo chmod -x /usr/bin/qpurge
+sudo chmos -x /usr/bin/qtest
+sudo rm -rf /usr/bin/qtest
 sudo rm -rf /usr/bin/qpurge
 sudo rm -rf ~/qpurge
 ```
 Simply Copy + Paste into your shell.
+
+# qtest
+Very simple Utility I created during testing to quickly create a test directory with example files in order to test qpurge on them
+
+# Usage
+Should work on every distro and you just need to type ```qtest``` into the terminal for the ~/test/ directory to appear with 4 files, all named ```testfile.``` in differing cases and filetypes
+
+# Installation
+It is automatically installed together with qpurge

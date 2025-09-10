@@ -24,6 +24,7 @@ sudo chmod +x /usr/bin/qpurge
 #### Commands
 ```shell
 sudo chmod -x /usr/bin/qpurge
-sudo rm /usr/bin/qpurge
+sudo rm -rf /usr/bin/qpurge
+sudo rm -rf qpurge
 ```
 Simply Copy + Paste.

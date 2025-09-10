@@ -8,7 +8,7 @@ sudo cp qpurge/qtest "$GOALDIR"/qtest
 sudo chmod +x "$GOALDIR"/qpurge
 sudo chmod +x "$GOALDIR"/qtest
 
-echo "----------------------------"
+echo "---------------------------------------" 
 echo "Finished, qpurge and qtest are ready."
 echo
 echo "Type \"qpurge -h\" for help."

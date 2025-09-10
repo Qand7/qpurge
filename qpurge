@@ -36,7 +36,7 @@ Version()
 
 License()
 {
-   cat LICENSE
+   cat ~qpurge-qtest/LICENSE
    echo
    echo
    echo
@@ -44,7 +44,6 @@ License()
    echo
    echo 
    echo
-   echo "(I ain't printing allat, you got wifi, you downloaded this, go look at it on Github)"
    echo "(It's just the GPL 3.0 license)"
 }
 

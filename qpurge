@@ -88,7 +88,7 @@ if [[ $REPLY =~ ^[yY]$ ]] || [[ -z $REPLY ]]; then
 	echo "I am serious. you could be deleting VITAL system files." 
 	read -p "(type \"YES, I CONFIRM\" to confirm): " conf
  	if [[ $conf == "YES, I CONFIRM" ]]; then
-            sudo find -iname "*$1*" | xargs rm -rf
+            sudo find -iname "*$1*" | xargs sudo rm -rf
 
 	else 
 	    echo "Process Aborted at third stage"

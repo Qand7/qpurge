@@ -14,9 +14,9 @@ Just type ```qpurge $String``` and it will find all files that include this stri
 ### Building from Scratch
 #### Commands
 ```shell
-git clone https://github.com/Qand7/qpurge
-chmod +x ~/qpurge/install.sh
-sudo ~/qpurge/install.sh
+git clone https://github.com/Qand7/qpurge-qtest
+chmod +x ~/qpurge-qtest/install.sh
+sudo ~/qpurge-qtest/install.sh
 ```
 
 # Uninstalling
@@ -26,15 +26,15 @@ sudo chmod -x /usr/bin/qpurge
 sudo chmos -x /usr/bin/qtest
 sudo rm -rf /usr/bin/qtest
 sudo rm -rf /usr/bin/qpurge
-sudo rm -rf ~/qpurge
+sudo rm -rf ~/qpurge-qtest
 ```
 Simply Copy + Paste into your shell.
 
 # qtest
 Very simple Utility I created during testing to quickly create a test directory with example files in order to test qpurge on them
 
-# Usage
+### Usage
 Should work on every distro and you just need to type ```qtest``` into the terminal for the ~/test/ directory to appear with 4 files, all named ```testfile.``` in differing cases and filetypes
 
-# Installation
+### Installation
 It is automatically installed together with qpurge

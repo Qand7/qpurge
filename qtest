@@ -10,4 +10,5 @@ fi
 sudo touch ~/test/testFile ~/test/TestFile.txt ~/test/tEsTfIlE.html ~/test/TeStFiLe.c
 echo
 echo "------------------"
-echo "Created Testfiles" 
+echo "Created Testfiles." 
+echo

@@ -2,8 +2,8 @@
 
 GOALDIR="/usr/bin"
 
-sudo cp qpurge/qpurge "$GOALDIR"/qpurge
-sudo cp qpurge/qtest "$GOALDIR"/qtest
+sudo cp qpurge-qtest/qpurge "$GOALDIR"/qpurge
+sudo cp qpurge-qtest/qtest "$GOALDIR"/qtest
 
 sudo chmod +x "$GOALDIR"/qpurge
 sudo chmod +x "$GOALDIR"/qtest

@@ -14,7 +14,7 @@ Just type ```qpurge $String``` and it will find all files that include this stri
 
 ## qtest
 Should work on every distro and you just need to type ```qtest``` into the terminal for the ~/test/ directory to appear with 4 files, all named ```testfile.``` in differing cases and filetypes.
-
+# 
 > [!NOTE]
 > I'm not sure whether this works on all Distros because I only tried Arch Linux and raspian(Debian) but make sure to replace the $GOALDIR = "usr/bin/" in ```install.sh``` with whichever directory your shell commands are saved in (Working on automatic recognition)
 

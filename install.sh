@@ -1,6 +1,9 @@
 #!/bin/bash
 
-$GOALDIR="/usr/bin/"
+GOALDIR="/usr/bin"
 
-sudo cp qpurge "$GOALDIR"/qpurge
+sudo cp qpurge/qpurge "$GOALDIR"/qpurge
 sudo chmod +x "$GOALDIR"/qpurge
+
+echo "Finished, qpurge is ready"
+echo "Type \"qpurge -h\" for help"

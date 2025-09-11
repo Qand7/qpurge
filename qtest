@@ -7,7 +7,7 @@ if [[ ! -d test ]]; then
 		echo
 fi
 
-jf [[ -f ~/test/testFile ]]; then
+if [[ -f ~/test/testFile ]]; then
 		echo "------------------------"
 		echo "Testfiles already exist."
 		echo

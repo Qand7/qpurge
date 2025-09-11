@@ -32,12 +32,7 @@ sudo ~/qpurge-qtest/install.sh
 # Uninstalling
 #### Commands
 ```shell
+sudo chmod +x ~/qpurge-qtest/delete.sh
 ~/qpurge-qtest/delete.sh
-
-sudo chmod -x /usr/bin/qpurge
-sudo chmod -x /usr/bin/qtest
-sudo rm -rf /usr/bin/qtest
-sudo rm -rf /usr/bin/qpurge
-sudo rm -rf ~/qpurge-qtest
 ```
 Simply Copy + Paste into your shell.

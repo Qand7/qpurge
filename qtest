@@ -1,14 +1,13 @@
 #!/bin/bash
 
-if [ ! -d test ]; then
+if [[ ! -d test ]]; then
 		mkdir ~/test
 		echo "----------------------"
 		echo "Test Directory Created"
 		echo
 fi
 
-jf [[ test -f ~/test/testFile ]]
-then
+jf [[ -f ~/test/testFile ]]; then
 		echo "------------------------"
 		echo "Testfiles already exist."
 		echo

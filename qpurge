@@ -36,11 +36,11 @@ Version()
 
 License()
 {
-   cat ~qpurge-qtest/LICENSE
+   cat ~/qpurge-qtest/LICENSE
    echo
    echo
    echo
-   echo "https://github.com/Qand7/qpurge/blob/main/LICENSE"
+   echo "https://github.com/Qand7/qpurge-qtest/blob/main/LICENSE"
    echo
    echo 
    echo

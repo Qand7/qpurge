@@ -7,7 +7,6 @@ sudo cp qpurge-qtest/qtest "$GOALDIR"/qtest
 
 sudo chmod +x "$GOALDIR"/qpurge
 sudo chmod +x "$GOALDIR"/qtest
-sudo chmod +x ~/qpurge-qtest/delete.sh
 
 echo "-------------------------------------------" 
 echo "Finished, qpurge and qtest are ready."
